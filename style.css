@@ -10,6 +10,37 @@ h1{
     font-family: cursive;
     font-size: 70px;
     text-align: center;
+    animation: text 5s infinite alternate;
+}
+@keyframes text{
+    0% {color: white;}
+    25%{color: black;}
+    50%{color: deeppink;}
+    75%{color: blue;}
+    100%{color: gold;}
+}
+h3{
+    color: white;
+    font-family: cursive;
+    font-size: 25px;
+    text-align: center;
+    animation:text1 10s infinite alternate;
+}
+@keyframes text1{
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(0,0);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+    0% {color: white;}
+    25%{color: black;}
+    50%{color: deeppink;}
+    75%{color: blue;}
+    100%{color: gold;}
 }
 .div1{
     display: flex;
